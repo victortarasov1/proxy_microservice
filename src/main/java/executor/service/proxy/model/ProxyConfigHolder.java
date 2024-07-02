@@ -1,10 +1,7 @@
 package executor.service.proxy.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UuidGenerator;
 
@@ -18,6 +15,7 @@ import static jakarta.persistence.FetchType.EAGER;
 @Getter @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@ToString
 public class ProxyConfigHolder {
     @Id
     @UuidGenerator
