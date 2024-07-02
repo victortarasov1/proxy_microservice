@@ -39,6 +39,7 @@ dependencies {
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+	runtimeOnly("io.micrometer:micrometer-registry-prometheus")
 }
 
 dependencyManagement {
@@ -51,4 +52,4 @@ tasks.withType<Test> {
 	useJUnitPlatform()
 }
 
-jib.to.image = "victortarasov/executor-proxy-service:v6"
+jib.to.image = "victortarasov/executor-proxy-service:v7"
