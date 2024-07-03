@@ -19,8 +19,8 @@ and change the microservice's configuration [here](https://github.com/victortara
 
 
 ## Proxy's API
-- `GET: /executor/proxy/proxy/add` - load proxies from remote source
-- `GET: /executor/proxy/proxy/get` - get proxy
+- `POST: /executor/proxy/add` - load proxies from remote source
+- `GET: /executor/proxy/get` - get proxy
 
 
 ## Json Examples
