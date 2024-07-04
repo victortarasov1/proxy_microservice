@@ -52,6 +52,7 @@ and change the microservice's configuration [here](https://github.com/victortara
 - Spring Cloud OpenFeign
 - AssertJ
 - postgresql
+- okhttp
 - Mockito
 - prometheus
 - lombok
