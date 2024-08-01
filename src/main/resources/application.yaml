@@ -3,3 +3,5 @@ spring:
     name: proxy
   config:
     import: optional:configserver:http://localhost:8084/
+  profiles:
+    active: default
