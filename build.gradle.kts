@@ -52,4 +52,4 @@ tasks.withType<Test> {
 	useJUnitPlatform()
 }
 
-jib.to.image = "victortarasov/executor-proxy-service:v10"
+jib.to.image = "victortarasov/executor-proxy-service:v11"
